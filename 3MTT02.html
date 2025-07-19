@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Design</title>
+    <style>
+      *{
+         font-family: sans-serif;
+         margin:0px;
+         padding:0px;
+      }
+      body{
+         background-image: url(pic.jpg);
+         background-size: cover;
+         line-height:1.6;
+         color:white;
+      }
+      .container{
+         width: 90%;
+         max-width: 1000px;
+         margin: 0 auto;
+         padding: 20px ;
+      }
+      .Hero{
+            text-align: center;
+            padding: 80px 20px;
+      }
+      .Hero h1{
+         color:white;
+         margin-bottom:5px;
+         font-size:30px;
+      }
+      .Hero p{
+         margin: 0 auto 25px;
+         font-size:15px;
+         max-width: 250px;;
+      }
+      .link{
+         display: inline-block;
+         background:rgba(0, 43, 128, 0.849);
+         font-size: 20px;
+         color: white;
+         padding: 12px 30px;
+         border-radius: 10px;
+         text-decoration: none;
+         font-weight: bold;
+         transition: background 0.3s ease;
+      }
+      .link:hover {
+         background:white;
+         color:black;
+      }
+      .features{
+         padding: 20px 0;
+
+      }
+      .features h2{
+         text-align:center;
+         margin-bottom:40px;
+         font-size:25px;
+      }
+      .features-div{
+         display: flex;
+         flex-wrap: wrap;
+         gap: 30px;
+         justify-content: center;
+         background: #f9f9f9;
+         padding: 60px 0;
+      }
+      .first-div{
+         flex: 1 1 300px;
+         max-width: 350px;
+         background: rgba(0, 43, 128, 0.849);
+         padding: 25px;
+         border-radius: 14px;
+         text-align: center;
+         color:white;
+         font-size:15px;
+         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.674);
+      }
+      footer{
+         color: white;
+         padding: 30px 0;
+         text-align: center;
+      }
+      .footer-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .footer-div {
+            margin: 20px 0;
+        }
+
+        .footer-div a {
+            color: white;
+            margin: 0 10px;
+            font-size: 15px;
+            text-decoration: none;
+        }
+
+        .footer-div a:hover {
+            text-decoration: underline;
+        }
+        .copyright {
+            margin-top: 20px;
+            font-size: 15px;
+            opacity: 0.8;
+        }
+    </style>
+</head>
+
+
+<body>
+   <div class="container">
+      <section class="Hero">
+         <h1>SkilDa Training Institute</h1>
+         <p>Building an edifice of skills with the right intelligence</p>
+         <a href="#features-div" class="link">Learn More</a>
+
+     <!---Second session-->
+      </section>
+
+      <section class="features" id="features">
+         <div class="container">
+            <h2>Our Services</h2>0
+            <div class="features-div">
+               <div class="first-div">
+                  <h3>Live and Online classes</h3>
+                  <p>Enroll for our live and online classes to get first hand materials on our skills</p>
+               </div>
+               <div class="first-div">
+                  <h3>Mentoring sessions</h3>
+                  <p>Pick a day for close mentoring with our best mentors and tariners from across the globe</p>
+               </div>
+               <div class="first-div">
+                  <h3>Training and equipping</h3>
+                  <p>Be train and equipped into the differnt faculties and become a skilled trainee or mentors</p>
+               </div>
+            </div>
+         </div>
+      </section>
+
+  <!----footer session---->   
+      <footer>
+         <div class="footer-div">
+            <a href="#"><i class="fab fa-facebook"></i>Facebook</a>
+            <a href="#"><i class="fab fa-twitter"></i>Twitter</a>
+            <a href="#"><i class="fab fa-instagram"></i>Instagram</a>
+            <a href="anowaanointing8@gmail.com"><i class="fas fa-envelope"></i>Email</a>
+            <a href="tel:09070411198"><i class="fas fa-phone"></i>Contact</a>
+         </div>
+         <p class="copyright">© 2024 SkillDa Training Insitute. All rights reserved.</p>
+      </footer>
+   </div>
+</body>
+</html>
+      
+      
